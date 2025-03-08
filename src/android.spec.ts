@@ -1,0 +1,1 @@
+// Create a spec for run android emulator and check battery status
