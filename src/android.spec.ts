@@ -10,7 +10,7 @@ const androidCapabilities = {
   'appium:language': 'en',
 };
 
-describe('Healthcheck Android Appium connection', function () {
+describe('Health check Android Appium connection', function () {
   let app: App;
 
   beforeAll(async () => {
