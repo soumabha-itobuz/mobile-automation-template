@@ -2,7 +2,7 @@
   "name": "appium-starter",
   "version": "1.0.0",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest --runInBand"
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest"
   },
   "devDependencies": {
     "@types/jest": "^29.0.0",
