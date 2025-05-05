@@ -44,19 +44,16 @@ run   `source ~/.zshrc`
 
 
 ###  Steps 3
-Install appium server `npm install -g appium`
-Run appium server with `appium`
-
-Run To view installed driver `appium driver list --installed`
+Run appium server with `npm run appium`
+Run To view installed driver `npm run appium:driver-list`
 
 Available appium drivers 
 https://appium.io/docs/en/2.3/ecosystem/drivers/
 
-`appium driver install uiautomator2` - for android 
-`appium driver install xcuitest` - for iOS
+
 
 
 
 ### Troubleshooting 
-npm install -g @appium/doctor
+`npm run doctor`
 
