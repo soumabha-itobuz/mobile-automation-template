@@ -1,4 +1,6 @@
 ## Setup for Mac Arm architecture  
+`corepack enable` to enable yarn command 
+
 brew is pre-dependency 
 
 You can Install Brew with ths command from github
@@ -55,6 +57,8 @@ https://appium.io/docs/en/2.3/ecosystem/drivers/
 Install appium inspector so that you can get selector with this app 
 https://github.com/appium/appium-inspector
 
+## iOS Setup
+Install xcode https://apps.apple.com/in/app/xcode/id497799835?mt=12
 
 ### Troubleshooting 
 `npm run doctor`
