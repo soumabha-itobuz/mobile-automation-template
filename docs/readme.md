@@ -51,7 +51,9 @@ Available appium drivers
 https://appium.io/docs/en/2.3/ecosystem/drivers/
 
 
-
+### Steps 4 
+Install appium inspector so that you can get selector with this app 
+https://github.com/appium/appium-inspector
 
 
 ### Troubleshooting 
