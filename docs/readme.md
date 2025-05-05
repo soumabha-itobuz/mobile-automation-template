@@ -57,9 +57,26 @@ https://appium.io/docs/en/2.3/ecosystem/drivers/
 Install appium inspector so that you can get selector with this app 
 https://github.com/appium/appium-inspector
 
+
 ## iOS Setup
 Install xcode https://apps.apple.com/in/app/xcode/id497799835?mt=12
 
 ### Troubleshooting 
 `npm run doctor`
 
+### Optional dependency install 
+brew install ios-deploy
+brew install lyft/formulae/set-simulator-location
+npm install -g mjpeg-consumer
+brew tap wix/brew
+brew install applesimutils
+brew tap facebook/fb
+brew install idb-companion
+
+
+
+## Run Test 
+Tested With Pixel3_34
+npm run test -- android 
+
+npm run test -- ios 
