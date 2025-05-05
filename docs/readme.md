@@ -78,5 +78,7 @@ brew install idb-companion
 ## Run Test 
 Tested With Pixel3_34
 npm run test -- android 
-
+Tested With iOs 18.2 iPhone 16 Plus
 npm run test -- ios 
+Tested with chrome
+npm run test -- web
