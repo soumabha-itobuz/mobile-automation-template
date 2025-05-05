@@ -1,6 +1,6 @@
 import { App } from './app';
 
-const iOSVersion = '18.1';
+const iOSVersion = '18.2';
 
 const capabilities = {
   platformName: 'iOS',
