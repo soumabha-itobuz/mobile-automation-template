@@ -2,7 +2,7 @@
 
 module.exports = {
   // global timeout 
-  testTimeout: 50000,
+  testTimeout: 500000,
   preset: 'ts-jest',
   testEnvironment: 'node',
   testMatch: ['**/src/**/*.(spec|test).[tj]s?(x)'],

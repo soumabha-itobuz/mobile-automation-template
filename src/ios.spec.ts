@@ -1,6 +1,6 @@
 import { App } from './app';
 
-const iOSVersion = '18.2';
+const iOSVersion =  process.env.IOS_VERSION || '17.0';
 
 const capabilities = {
   platformName: 'iOS',
